@@ -12,9 +12,11 @@ using namespace std;
 int main()
 {
     Book b("Fairy tale", "Andersen", 100);
+    Book b2("Snowwhite", "Andersen", 100);
     Encyclopedia e("Mathpedia","Many",200,"Math");
     Shelf sh;
     sh.AddBook(b);
+    sh.AddBook(b2);
     sh.AddBook(e);
 
     string title;
